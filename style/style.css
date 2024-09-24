@@ -1,0 +1,297 @@
+body {
+    font-family: 'Open sans', sans-sef;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #1C1C1C;
+  }
+#content h3{
+    color: #9acd32;
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h2{
+    color: #9acd32 ;
+    padding: 5px;
+    margin-top: -5px;
+}
+footer{
+    color: #9acd32;
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.background-jumbotron{
+    position: relative;
+    max-height: 100%;
+    object-fit: cover;
+    max-height: 490px;
+    overflow: hidden;
+    background: linear-gradient(
+        to bottom,
+        rgba(10, 63, 0, 0.603),
+        rgb(0, 0, 0, 1)
+    )
+  }
+.background-jumbotron img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10px;
+    opacity: 0.2;
+    
+  }
+.text-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #9acd32;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.text-overlay h1 {
+    font-size: 7rem;
+    font-family: 'Open sans', sans-serif;
+    text-shadow: black 7px 7px 10px;
+    padding: auto;
+    margin: auto;
+    max-width: fit-content;
+}
+.text-overlay h2{
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: 'Open sans', sans-serif;
+    text-shadow: black 4px 4px 1px;
+    padding: auto;
+}
+  nav.topbar li{
+    list-style-type: none;
+  }
+  nav.topbar ul{
+    gap: 2rem;
+    display: flex;
+    flex-direction: row; 
+    padding: auto;
+  }
+  nav.topbar {
+    background-color: black;
+    margin: 0;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex: 10;
+  }
+  nav.topbar a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #9acd32;
+    position: sticky;
+    top: 0;
+  }
+  nav.topbar a:hover{
+    font-weight: bold;
+    padding: 21px;
+    background-color: #9acd32;
+    color: black;
+    box-shadow:  rgb(18, 18, 18) 10px 10px 10px;
+    transition: 0.3s;
+  }
+  nav.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  } 
+  nav.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #9acd32;
+    display: block;
+    transition: 0.3s;
+  }
+
+  nav.sidebar a:hover {
+    background-color: #9acd32;
+    color: black;
+    padding: 20px;
+    transition: 0.3s;
+    box-shadow:  rgb(18, 18, 18) 10px 10px 10px;
+    font-weight: 400;
+    font-weight: bold;
+  }
+  nav.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 36px;
+  }
+  nav.sidebar p {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #9acd32;
+    display: block;
+    transition: 0.3s;
+    font-size: x-large;
+    font-weight: 800;
+  }
+  main{
+    padding: 20px;
+    gap: 1.5rem;
+    display: flex;
+    flex: 15;
+  }
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: #9acd32;
+    border: none;
+    position: sticky;
+    top:  0;
+    flex: 1 9;
+    max-width: fit-content;
+  }
+  .openbtn:hover {
+    background-color: #9acd32;
+    color: black;
+    transition: 0.3s;
+    box-shadow:  rgb(18, 18, 18) 10px 10px 10px;
+    padding: 15px;
+  }
+  .featured-image{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .geografis{
+    width: 100%;
+    max-height: 500px;
+    object-fit: fill;
+    object-position: center;
+  }
+  .daftarisi{
+    flex: 9 1;
+  }
+  #content{
+    display: flex;
+    flex: 14 1;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+  }
+  aside{
+    flex: 1 14;
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding-top: 0px;
+    z-index: -1;
+    flex: 10;
+    text-align: center;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .profile img {
+    max-width: 150px;
+  }
+  .profile header{
+    text-align: center;
+    padding: 20px;
+  }
+  header{
+    display: inline;
+  }
+  table{
+    margin-top: -10px;
+    text-align: center;
+    width: 260px;
+  }
+  aside h3{
+    background-color: black;
+    border-radius: 5px;
+    padding: 1px;
+    color: #9acd32;
+  }
+  article{
+    box-shadow: 0px 4px 8px black;
+    border-radius: 4px;
+    padding: 20px;
+    background-color: black;
+    color: #9acd32;
+  }
+  @media screen and (max-width: 1200px) {
+    main {
+        flex-flow: column nowrap;
+      }
+      main aside{
+        align-self: center;
+      }
+
+   }
+   @media screen and (max-width: 1000px){
+    main aside{
+      align-self: stretch;
+    }
+    .text-overlay h1{
+      font-size: 100px;
+    }
+    .text-overlay h2{
+      font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 768px){
+    .text-overlay h1{
+      font-size: 80px;
+    }
+    .text-overlay h2{
+      font-size: 30px;
+      justify-self: center;
+    }
+  }
+  @media screen and (max-width: 550px){
+    .text-overlay h1{
+      font-size: 60px;
+    }
+    .text-overlay h2{
+      font-size: 20px;
+      justify-self: center;
+    }
+    nav.topbar ul{
+      gap: 15px;
+      padding-left: 20px;
+    }
+  }
+  @media screen and (max-width: 330px){
+    .text-overlay h1{
+      font-size: 40px;
+    }
+    .text-overlay h2{
+      font-size: 15px;
+      justify-self: center;
+    }
+    nav.topbar ul{
+      gap: 15px;
+      padding-left: 10px;
+    }
+    nav.topbar ul li{
+      margin: -5px;
+    }
+  }
+  
